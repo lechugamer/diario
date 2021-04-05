@@ -1,0 +1,80 @@
+*{
+    margin: auto;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(60, 161, 161);
+}
+.titulo{
+    font-size: 35px;
+    padding: 30px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+.nota{
+    background-size: 500px;
+    background-image: url(nota.png);
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor{
+    text-align:center;
+}
+
+.sentimiento{
+    margin: 20px;    
+}
+
+.descripcion{
+    margin: 20px;
+}
+
+.foto{
+    margin: 10px;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.btn-submit{
+    margin: 10px;
+}
+
+.titulo_2{
+    text-align: center;
+    font-size: 35px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-fill-color: rgb(223, 199, 64);
+}
+.pages{
+    line-height: 30px;
+    margin: 10px;
+}
+
+.list{
+    border-radius: 15px;
+    background: rgb(249,255,105);
+    background: radial-gradient(circle, rgba(249,255,105,1) 0%, rgba(255,166,0,1) 100%);
+    padding: 20px;
+}
+
+@media(min-width:768px){
+    .nota{
+        text-align: center;
+        margin-right: 280px;
+    }
+}
+
+@media(min-width: 1297px){
+    .contenedor{
+        margin-right: 530px;
+        text-align:center;
+    }
+
+    .pages{
+        line-height: 30px;
+        margin: 10px;
+    }
+}

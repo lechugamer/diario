@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Mi diario</title>
+</head>
+<body>
+    <div class="nota">
+        <div class="contenedor">
+        <form id="formPage">
+            <h1 class="titulo">MI DIARIO</h1>    
+            <div class="fecha">
+            <label for="fecha">Fecha: </label>
+                <input type="date" id="fecha">
+            </div>
+
+            <div class="sentimiento">
+                <input id="titulo" type="text" placeholder="¿Cómo te sientes?">
+            </div>
+
+            <div class="descripcion">
+                <textarea id="descripcion" rows="10" cols="32" placeholder="¿Qué hiciste en el día?"></textarea>
+            </div>
+
+            <div class="foto">
+                <label for="foto">¿Quíeres agregar un recuerdo?</label><br><br>
+                <input type="file" id="foto">
+            </div>
+
+            <button type="submit" class="btn-submit">Guardar</button>
+        </form>
+    </div>
+    </div>
+    <div class="pages">
+        <h1 class="titulo_2">RECUERDOS</h1>
+        <div id="pages" class="list"></div>
+    </div>
+
+    <script src="js/index.js">
+    
+    </script>
+</body>
+</html>
